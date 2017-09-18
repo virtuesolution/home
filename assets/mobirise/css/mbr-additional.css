@@ -1623,82 +1623,50 @@ body {
     padding-left: 30px;
   }
 }
-.cid-qvyi3Rzn8v {
+.cid-qvynxCT6F3 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url("../../../assets/images/jumbotron.jpg");
+}
+.cid-qvynET2IAU {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #f9f9f9;
+  background-color: #efefef;
 }
-.cid-qvyi3Rzn8v .mbr-section-subtitle {
+.cid-qvynET2IAU .card-img {
+  background-color: #fff;
+}
+.cid-qvynET2IAU .card-img a {
+  display: block;
+  padding-top: 2rem;
+}
+.cid-qvynET2IAU .card-box {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+.cid-qvynET2IAU h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-qvynET2IAU p {
+  text-align: left;
+}
+.cid-qvynET2IAU .mbr-text {
   color: #767676;
 }
-.cid-qvyi3Rzn8v .container-table {
-  margin: 0 auto;
+.cid-qvynET2IAU .card-wrapper {
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
 }
-.cid-qvyi3Rzn8v .scroll {
-  overflow-x: auto;
-  padding: 0;
+.cid-qvynET2IAU .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
 }
-.cid-qvyi3Rzn8v .dataTables_wrapper {
-  display: block;
-}
-.cid-qvyi3Rzn8v .dataTables_wrapper .search {
-  margin-bottom: .5rem;
-}
-.cid-qvyi3Rzn8v .dataTables_wrapper .table {
-  overflow-x: auto;
-}
-.cid-qvyi3Rzn8v table {
-  width: 100% !important;
-  margin-top: 6px;
-  border: 1px solid #cccccc;
-  margin-bottom: 0;
-}
-.cid-qvyi3Rzn8v table th {
-  border-top: none;
-  transition: all .2s;
-  border-bottom: none;
-}
-.cid-qvyi3Rzn8v table th:hover {
-  background: #cccccc;
-  color: #000000;
-}
-.cid-qvyi3Rzn8v table td {
-  border-top: 1px solid #cccccc;
-}
-.cid-qvyi3Rzn8v table.table {
-  background: #ffffff;
-}
-.cid-qvyi3Rzn8v .dataTables_filter {
-  text-align: right;
-  margin-bottom: .5rem;
-}
-.cid-qvyi3Rzn8v .dataTables_filter label {
-  display: inline;
-  white-space: normal !important;
-}
-.cid-qvyi3Rzn8v .dataTables_filter input {
-  display: inline;
-  width: auto;
-  margin-left: .5rem;
-  border-radius: 100px;
-  padding-left: 1rem;
-}
-.cid-qvyi3Rzn8v .dataTables_info {
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-  white-space: normal !important;
-}
-@media (max-width: 992px) {
-  .cid-qvyi3Rzn8v .dataTables_filter {
-    text-align: center;
-  }
-}
-@media (max-width: 350px) {
-  .cid-qvyi3Rzn8v .dataTables_filter {
-    text-align: center;
-  }
-  .cid-qvyi3Rzn8v .dataTables_filter input {
-    width: 100% !important;
-    margin-left: 0 !important;
+@media (min-width: 992px) {
+  .cid-qvynET2IAU .my-col {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 15px;
   }
 }
